@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.7.34221.43
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AV.ForeignExchangeRates.API", "AV.ForeignExchangeRates.API\AV.ForeignExchangeRates.API.csproj", "{87858122-FA18-4E22-A7C7-11BE25528B11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AV.ForeignExchangeRates.Domain", "AV.ForeignExchangeRates.Domain\AV.ForeignExchangeRates.Domain.csproj", "{0538F057-DC3B-4A44-8498-186D0B5EA309}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AV.ForeignExchangeRates.Application", "AV.ForeignExchangeRates.Application\AV.ForeignExchangeRates.Application.csproj", "{7C2BE85D-8C8A-4916-8E50-1C2CA3B58E11}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AV.ForeignExchangeRates.Infra", "AV.ForeignExchangeRates.Infra\AV.ForeignExchangeRates.Infra.csproj", "{171BC46C-009B-41C8-A9C9-F44831700D28}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AV.ForeignExchangeRates.Services", "AV.ForeignExchangeRates.Services\AV.ForeignExchangeRates.Services.csproj", "{3EA02EE5-9C93-47F7-80F5-BA36F4743023}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AV.ForeignExchangeRates.Tests", "AV.ForeignExchangeRates.Tests\AV.ForeignExchangeRates.Tests.csproj", "{D07A4A4F-E497-4810-A756-A565CBC4DC40}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{87858122-FA18-4E22-A7C7-11BE25528B11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{87858122-FA18-4E22-A7C7-11BE25528B11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{87858122-FA18-4E22-A7C7-11BE25528B11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{87858122-FA18-4E22-A7C7-11BE25528B11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0538F057-DC3B-4A44-8498-186D0B5EA309}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0538F057-DC3B-4A44-8498-186D0B5EA309}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0538F057-DC3B-4A44-8498-186D0B5EA309}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0538F057-DC3B-4A44-8498-186D0B5EA309}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7C2BE85D-8C8A-4916-8E50-1C2CA3B58E11}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7C2BE85D-8C8A-4916-8E50-1C2CA3B58E11}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7C2BE85D-8C8A-4916-8E50-1C2CA3B58E11}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7C2BE85D-8C8A-4916-8E50-1C2CA3B58E11}.Release|Any CPU.Build.0 = Release|Any CPU
+		{171BC46C-009B-41C8-A9C9-F44831700D28}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{171BC46C-009B-41C8-A9C9-F44831700D28}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{171BC46C-009B-41C8-A9C9-F44831700D28}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{171BC46C-009B-41C8-A9C9-F44831700D28}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3EA02EE5-9C93-47F7-80F5-BA36F4743023}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3EA02EE5-9C93-47F7-80F5-BA36F4743023}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3EA02EE5-9C93-47F7-80F5-BA36F4743023}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3EA02EE5-9C93-47F7-80F5-BA36F4743023}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D07A4A4F-E497-4810-A756-A565CBC4DC40}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D07A4A4F-E497-4810-A756-A565CBC4DC40}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D07A4A4F-E497-4810-A756-A565CBC4DC40}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D07A4A4F-E497-4810-A756-A565CBC4DC40}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {ADD36B89-F9CA-4112-AF4D-2B34D077BF84}
+	EndGlobalSection
+EndGlobal
